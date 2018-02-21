@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<extension key="be.ctrl.banker" type="module">
+  <file>banker</file>
+  <name>CiviCRM banker: banking add-on</name>
+  <description>Step by step Manual + Plugins for CiviCRM Banking.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Hechtermans Wouter</author>
+    <email>wouter@ctrl.be</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/kewljuice/be.ctrl.banker</url>
+    <url desc="Documentation">https://github.com/kewljuice/be.ctrl.banker</url>
+    <url desc="Support">http://www.ctrl.be</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2018-02-20</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.7</ver>
+  </compatibility>
+  <comments>Follow README.md for installation</comments>
+  <civix>
+    <namespace>CRM/ctrl/banker</namespace>
+  </civix>
+  <requires>
+    <ext>org.project60.banking</ext>
+  </requires>
+</extension>
